@@ -1,0 +1,11 @@
+{
+  "name": "master-template-rethink",
+  "version": "1.0.0",
+  "description": "A sensible aproach to maintaining master templates for Saleforce.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bradley Baysinger",
+  "license": "ISC"
+}
