@@ -14,8 +14,10 @@ function defaultTask(cb) {
 
 /**
  * Output minified version... Possibly for produciton if we determing that's a good idea.
+ * TODO: Code on a single line may break some email clients. Need sort that out.
  */
 gulp.task("prod", function () {
+  // Minify options.
   const mOpts = {};
   mOpts.collapseWhitespace = true;
   mOpts.minifyCSS = true;
